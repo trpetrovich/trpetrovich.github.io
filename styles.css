@@ -1,0 +1,59 @@
+html {
+    background-image: url('heavyrain.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Syne Mono", monospace;
+    display: flex;
+    flex-direction: column;
+    gap: 1;
+}
+body, html, .header {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.header {
+    order: 0;
+    display: flex;
+    
+    box-shadow: 0px 1cqh 1cqh rgb(25, 25, 26, 0.3);
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    container-type: inline-size;
+    size: fixed;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(32, 32, 33, 0.5);
+    color: rgb(230, 249, 255);
+    font-size: 2.5cqh;
+    text-shadow: 0 0.3cqh 0.5cqh rgb(222, 251, 255);
+    padding-left: 2cqh;
+}
+
+.hero {
+    box-shadow: 0px 0 1cqh rgb(25, 25, 26, 0.3);
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    height: 80vh;
+    width: 90vh;
+    background-color: rgb(32 32 33 / 0.5);
+    color: rgb(230 249 255);
+    text-shadow: 0 0.3cqh 0.5cqh rgb(222 251 255);
+    font-size: 3cqh;
+    padding: 2cqh;
+    flex-direction: column;
+}
